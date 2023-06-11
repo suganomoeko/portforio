@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="ここにサイト説明を入れます" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/openclose.js"></script>
+		<script src="js/fixmenu_pagetop.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<header>
+				<!--スライドショー-->
+				<aside id="mainimg">
+					<img src="images/1.jpg" alt="" class="slide0" />
+					<img src="images/1.jpg" alt="" class="slide1" />
+					<img src="images/2.jpg" alt="" class="slide2" />
+					<img src="images/3.jpg" alt="" class="slide3" />
+					<img src="images/123_kazari.png" alt="" class="kazari" />
+				</aside>
+			</header>
+
+			<nav id="menubar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="play.html">Play Game</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div id="contents">
+				<section>
+					<h2>Gallery<br /><span>Comming Soon</span></h2>
+
+					<div class="list">
+						<a href="images_photo/1.jpg" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/1s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/2.jpg" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/2s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/3.jpg" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/3s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/4.jpg" data-lightbox="group2" data-title="タイトル">
+							<figure><img src="images_photo/4s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/5.jpg" data-lightbox="group2" data-title="タイトル">
+							<figure><img src="images_photo/5s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/6.jpg" data-lightbox="group2" data-title="タイトル">
+							<figure><img src="images_photo/6s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/1.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/1s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/2.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/2s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/3.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/3s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/1.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/1s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/2.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/2s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/3.jpg" data-lightbox="group3" data-title="タイトル">
+							<figure><img src="images_photo/3s.jpg" alt="" /></figure>
+						</a>
+					</div>
+
+
+			<footer>
+				<ul class="icon">
+					<li>
+						<a href="#"><img src="images/icon_facebook.png" alt="Facebook" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_twitter.png" alt="Twitter" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_instagram.png" alt="Instagram" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_youtube.png" alt="TouTube" /></a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<!--/#container-->
+
+		<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+		<!--メニュー開閉ボタン-->
+		<div id="menubar_hdr" class="close"></div>
+
+		<!--メニューの開閉処理-->
+		<script>
+			open_close("menubar_hdr", "menubar");
+		</script>
+
+		<!--lightbox用jsファイルの読み込み-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+	</body>
+</html>

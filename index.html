@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Moeko.Sのポートフォリオ</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/openclose.js"></script>
+		<script src="js/fixmenu_pagetop.js"></script>
+	</head>
+
+	<body class="home">
+		<div id="container">
+			<header>
+				<!--スライドショー-->
+				<aside id="mainimg">
+					<img src="images/1.jpg" alt="" class="slide0" />
+					<img src="images/1.jpg" alt="" class="slide1" />
+					<img src="images/2.jpg" alt="" class="slide2" />
+					<img src="images/3.jpg" alt="" class="slide3" />
+					<img src="images/123_kazari.png" alt="" class="kazari" />
+				</aside>
+			</header>
+
+			<!--開閉メニュー-->
+			<nav id="menubar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="play.html">Play Game</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div id="contents">
+				<section>
+					<h2>About me<br /><span>自己紹介</span></h2>
+
+					<div class="list">
+						<a href="images_photo/me.png" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/me.png" alt="" /></figure>
+      </a>
+       <div class="caption">名前：菅野萌子<br>出身地：北海道出身の東京都江東区在住<br>生年月日:1991年2月18日<br>家族:夫・犬1匹</div>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/yoga.png" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/yoga.png" alt="" /></figure>
+      </a>
+       <div class="caption">学生の頃からヨガをやっており、ついにヨガインストラクター資格を取得<br></div>
+					</div>
+
+					<div class="list">
+						<a href="images_photo/cook.png" data-lightbox="group1" data-title="タイトル">
+							<figure><img src="images_photo/cook.png" alt="" /></figure>
+      </a>
+       <div class="caption">料理が好きで、最近は農作物を栽培できる畑を探し中<br></div>
+					</div>
+				</section>
+
+				<section id="new">
+					<h2>News<br /><span>お知らせ</span></h2>
+					<dl>
+						<dt>2023/04/01</dt>
+						<dd>サイト公開<span class="newicon"> NEW</span></dd>
+						</dd>
+					</dl>
+					<p class="r">&raquo;&nbsp;<a href="#">過去ログ</a></p>
+				</section>
+				<!--/#new-->
+
+			<footer>
+				<ul class="icon">
+					<li>
+						<a href="#"><img src="images/icon_facebook.png" alt="Facebook" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_twitter.png" alt="Twitter" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_instagram.png" alt="Instagram" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_youtube.png" alt="TouTube" /></a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<!--/#container-->
+
+		<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+		<!--メニュー開閉ボタン-->
+		<div id="menubar_hdr" class="close"></div>
+
+		<!--メニューの開閉処理-->
+		<script>
+			open_close("menubar_hdr", "menubar");
+		</script>
+
+		<!--lightbox用jsファイルの読み込み-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/openclose.js"></script>
+		<script src="js/fixmenu_pagetop.js"></script>
+	</head>
+
+	<body>
+		<div id="container">
+			<header>
+				<!--スライドショー-->
+				<aside id="mainimg">
+					<img src="images/1.jpg" alt="" class="slide0" />
+					<img src="images/1.jpg" alt="" class="slide1" />
+					<img src="images/2.jpg" alt="" class="slide2" />
+					<img src="images/3.jpg" alt="" class="slide3" />
+					<img src="images/123_kazari.png" alt="" class="kazari" />
+				</aside>
+			</header>
+
+			<nav id="menubar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="play.html">Play Game</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div id="contents">
+				<section>
+					<h2>経歴・スキル</h2>
+
+					<h3>経歴</h3>
+					<p>
+      大学を卒業後、札幌の老舗ホテルチェーンに入社し、接客やWEBマーケティングの経験を積みました。
+      その中で、お客様との対話を通じて高品質なサービスを提供することの重要性を学び、またデジタルマーケティングの世界にも興味を持ちました。<br>
+      その後、経済産業省でバックオフィス業務や秘書業務を担当。公的機関の裏方として、スムーズな業務の遂行と効率的なサポートをする重要な役割を果たしました。
+      この経験を通じて、組織の裏方としての責任と信頼を培いました。<br>
+      しかしながら、コロナ禍による変化をきっかけに、かねてから興味のあったIT業界への転職を決意。
+      IT業界にいざ就職するももっと深く関わっていきたいという思いが強く、
+      東京都の職業訓練に参加し、ITエンジニアとしてのスキルを磨きました。<br>
+      現在、私はITエンジニアとして、プログラミングやソフトウェア開発などに取り組んでいます。
+      この分野では、問題解決能力や論理的思考、チームワークが重要であり、私は必要とされるスキルを日々学んでおります。<br>
+      IT業界では常に新しい技術やトレンドに敏感であり、迅速な学習と適応力が求められるため、
+      積極的に新しい知識を吸収し、プロフェッショナルとしてのスキルを高めることに注力を注いでいます。
+      将来的には、ITエンジニアとしての経験とスキルを活かし、人々の暮らしを豊かにすることを目指しています。<br>
+      私は常にチャレンジ精神を持ち、柔軟な思考で問題に取り組んできました。
+      これまでの経験を活かして、ITエンジニアとして大いに活躍することができると考えております。<br>					</p>
+
+					<h3>スキル</h3>
+					<p>
+						・HTML<br />
+						・CSS<br />
+						・JavaScript<br />
+						・React<br />
+					</p>
+     <h3>ツール</h3>
+					<p>
+      ・Visual Studio Code<br>
+      ・Git/GitHub
+					</p>
+
+
+
+
+			<footer>
+				<ul class="icon">
+					<li>
+						<a href="#"><img src="images/icon_facebook.png" alt="Facebook" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_twitter.png" alt="Twitter" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_instagram.png" alt="Instagram" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/icon_youtube.png" alt="TouTube" /></a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<!--/#container-->
+
+		<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+		<!--メニュー開閉ボタン-->
+		<div id="menubar_hdr" class="close"></div>
+
+		<!--メニューの開閉処理-->
+		<script>
+			open_close("menubar_hdr", "menubar");
+		</script>
+
+		<!--lightbox用jsファイルの読み込み-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+	</body>
+</html>
